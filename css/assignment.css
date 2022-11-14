@@ -1,10 +1,12 @@
 .assignment{
     padding: 5rem 3rem 5rem 3rem;
     background-color: var(--color-base);
+    display:flex;
+    flex-wrap:wrap;
 }
 
 .assignment section{
-    width: 40cqw;
+    min-width: 33cqw;
     background-color: var(--color-light);
     padding: 2rem;
     flex: 1 1;
@@ -109,8 +111,12 @@
 }
     
 
-@media screen and (max-width:600px){
+@media screen and (max-width:768px){
     .assignment{
         padding: 5rem 1rem 5rem 1rem;
+    }
+    .assignment section{
+        min-width: 95cqw;
+        
     }
 }
