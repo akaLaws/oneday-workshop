@@ -4,9 +4,10 @@
 }
 
 .assignment section{
+    width: 30cqw;
     background-color: var(--color-light);
     padding: 2rem;
-
+    flex: 1 1;
     
 }
 
