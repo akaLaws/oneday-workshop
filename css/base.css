@@ -39,6 +39,7 @@ a{
 
 a:hover{
     color: var(--color-base);
+    text-decoration: underline;
 }
 
 .quote{
