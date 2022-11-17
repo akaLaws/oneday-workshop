@@ -6,7 +6,7 @@
 }
 
 .assignment section{
-    min-width: 33cqw;
+    min-width: 33%;
     background-color: var(--color-light);
     padding: 2rem;
     flex: 1 1;
@@ -116,7 +116,7 @@
         padding: 5rem 1rem 5rem 1rem;
     }
     .assignment section{
-        min-width: 95cqw;
+        min-width: 95%;
         
     }
 }
